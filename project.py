@@ -22,7 +22,7 @@ import sklearn.metrics as skmet
 import joblib
 
 # Loading the data set
-data = pd.read_csv(r"D:\DS study meterial\supervise learning\Navie bayes\sms_raw_NB.csv", encoding = "Latin-1")
+data = pd.read_csv(r"C:\Users\Jai Ram\Documents\mini project\sms_raw_NB.csv", encoding = "Latin-1")
 
 # Mapping the type to numeric values 1 and 0.
 # This step is required for metric calculations in the model evaluation phase.
